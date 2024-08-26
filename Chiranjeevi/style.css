@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.container .nav{
+    padding: 10px;
+}
+.container .nav .Heading{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.78);
+    position: relative;
+    left: 10%;
+}
+.container .nav .items{
+    position: relative;
+    left: 45%;
+}
+
+.container .nav .items a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.78);
+    padding-bottom: 5px;
+} 
+
+.container .nav .items a:hover{
+    border-bottom: 2px solid royalblue;
+    cursor: pointer;
+}
+
+.container img{
+    width: 45%;
+    position: relative;
+    left: 50%;
+}
+
+.container h1{
+    position: relative;
+    top: -500px;
+    font-size: 70px;
+    left: 10%;
+}
+
+.container h1 .special-text{
+    color: royalblue;
+}
+
+.container button{
+    position: relative;
+    top: -450px;
+    left: 10%;
+    font-size: 15px;
+    padding: 10px 34px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: royalblue;
+    color: #fff;
+}
+
+.container .icons{
+    width: 20%;
+    position: relative;
+    top: -320px;
+    left: 10%;
+}
+
+.container .icons i{
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.78);
+}
